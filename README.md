@@ -144,20 +144,38 @@ Manual, phone-based scheduling created long waits and errors. We deployed an **o
 
 ---
 
+
 ## Visual Preview
 
 > PNGs render inline on GitHub for fast screening.
 
-- **KPI Dashboard**  
-  ![KPI Dashboard](7_Reports_Dashboards/KPI_Dashboard_Formatted.png)
+## Visual Preview
 
-- **BPMN — As-Is / To-Be**  
-  ![BPMN As-Is](2_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png)  
-  ![BPMN To-Be](2_Process_Models_Diagrams/BPMN_ToBe_Swimlane_v2.png)
+> PNGs render inline on GitHub for fast screening.
 
-- **Architecture & Payments**  
-  ![System Architecture](2_Process_Models_Diagrams/System_Architecture_Diagram.png)  
-  ![Payment Gateway Integration](2_Process_Models_Diagrams/Payment_Gateway_Integration_v2.png)
+### KPI Dashboard
+[![KPI Dashboard](Reports_Dashboards/KPI_Dashboard_Formatted.png)](Reports_Dashboards/KPI_Dashboard_Formatted.png)
+
+### BPMN — As-Is / To-Be
+<p float="left">
+  <a href="_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png">
+    <img src="_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png" alt="BPMN As-Is" width="48%">
+  </a>
+  <a href="_Process_Models_Diagrams/BPMN_ToBe_Swimlane_v2.png">
+    <img src="_Process_Models_Diagrams/BPMN_ToBe_Swimlane_v2.png" alt="BPMN To-Be" width="48%">
+  </a>
+</p>
+
+### Architecture & Payments
+<p float="left">
+  <a href="System_Analysis_Integration/System_Architecture_Diagram.png">
+    <img src="System_Analysis_Integration/System_Architecture_Diagram.png" alt="System Architecture" width="48%">
+  </a>
+  <a href="_Process_Models_Diagrams/Payment_Integration_Flow_v2.png">
+    <img src="_Process_Models_Diagrams/Payment_Integration_Flow_v2.png" alt="Payment Integration Flow" width="48%">
+  </a>
+</p>
+
 
 ---
 
