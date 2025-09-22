@@ -40,7 +40,7 @@ _Last updated: 2025-09-22_
 ## Mini Case Study (1-pager)
 
 **Problem → Objective → Outcome**  
-Manual, phone-based scheduling created long waits and errors. We deployed an **online booking portal** integrated with **notifications** and **billing** to increase throughput and visibility. Outcomes: **booking time 1.8 min**, **no-show 8%**, **billing accuracy 95%**. :contentReference[oaicite:0]{index=0}
+Manual, phone-based scheduling created long waits and errors. We deployed an **online booking portal** integrated with **notifications** and **billing** to increase throughput and visibility. Outcomes: **booking time 1.8 min**, **no-show 8%**, **billing accuracy 95%**. 
 
 **KPIs (from production rollout mock)**
 
