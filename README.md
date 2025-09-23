@@ -1,8 +1,8 @@
-# 🖥️ Systems Analyst Portfolio  
+# 🖥️ Systems Analyst Portfolio — Jamie Christian
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/JamieChristian22/system-analyst-portfolio?style=social)](https://github.com/JamieChristian22/system-analyst-portfolio)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)  
-![Tools](https://img.shields.io/badge/Tools-Lucidchart%20|%20draw.io%20|%20Excel%20|%20Visio%20|%20Word-green)  
+![Tools](https://img.shields.io/badge/Tools-Lucidchart%20|%20draw.io%20|%20Excel%20|%20PowerBI%20|%20Visio%20|%20Word-green)
 
 ---
 
@@ -43,11 +43,33 @@ Designed and delivered an **online appointment system** covering search, booking
 - Secure payment gateway  
 - Notification & reminder system  
 
-📷 **Diagram Preview**  
-*[(Full diagrams inside the repo)](https://github.com/JamieChristian22/system-analyst-portfolio/blob/main/_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png)*  
+---
 
-![BPMN — Appointment Scheduling](previews/bpmn_appointment_flow.png)  
-*BPMN — To-Be Appointment Scheduling Flow*  
+## 📷 Diagram Previews  
+
+These diagrams demonstrate my ability to analyze the **current state (As-Is)**, design the **future state (To-Be)**, and model both **user interactions** and **system data structures**. Together, they showcase the full range of analysis skills.  
+
+### BPMN — Appointment Scheduling  
+| As-Is (Current Workflow) | To-Be (Improved Workflow) |
+|--------------------------|----------------------------|
+| ![BPMN As-Is](./_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png) | ![BPMN To-Be](./_Process_Models_Diagrams/BPMN_ToBe_Swimlane.png) |
+| *BPMN — As-Is Appointment Scheduling Flow* | *BPMN — To-Be Appointment Scheduling Flow* |
+
+---
+
+### UML Use Case — Appointment System  
+![Use Case — Appointment System](./_Process_Models_Diagrams/UML_UseCase_Updated.png)  
+*UML Use Case — Actors & System Interactions*
+
+---
+
+### ERD — Appointment System  
+![ERD — Appointment System](./_Process_Models_Diagrams/ERD_Updated.png)  
+*Entity Relationship Diagram — Core Data Model*
+
+---
+
+👉 [View all diagrams here](./_Process_Models_Diagrams/)  
 
 ---
 
@@ -55,22 +77,22 @@ Designed and delivered an **online appointment system** covering search, booking
 
 Blank templates are provided alongside filled examples to guide quality standards.  
 
-| Artifact        | Blank Template                  | Filled Example                           | Folder to Place              |
+| Artifact        | Blank Template                  | Filled Example                           | Folder Location              |
 |-----------------|---------------------------------|------------------------------------------|------------------------------|
-| BRD             | BRD_Template.docx               | BRD_Healthcare_Appointment_System.docx   | 1_Requirements_Documentation |
-| FRS             | FRS_Template.docx               | FRS_Healthcare_Appointment_System.docx   | 1_Requirements_Documentation |
-| RTM             | RTM_Template.xlsx               | Requirements_Traceability_Matrix.xlsx    | 4_Traceability_Stakeholders  |
-| RACI            | RACI_Template.xlsx              | RACI_Example.xlsx                        | 4_Traceability_Stakeholders  |
-| Stakeholder Map | Stakeholder_Map_Template.docx   | Stakeholder_Map_Example.docx             | 4_Traceability_Stakeholders  |
-| UAT Plan        | UAT_Plan_Template.docx          | UAT_Plan_Example.docx                    | 5_Testing_UAT                |
-| UAT Cases       | UAT_Test_Cases_Template.xlsx    | UAT_Test_Cases_Example.xlsx              | 5_Testing_UAT                |
-| UAT Feedback    | UAT_Feedback_Form_Template.docx | UAT_Feedback_Form_Filled.docx            | 5_Testing_UAT                |
-| Defect Log      | Defect_Log_Template.xlsx        | Defect_Log_Example.xlsx                  | 5_Testing_UAT                |
+| BRD             | BRD_Template.docx               | BRD_Healthcare_Appointment_System.docx   | **1_Requirements_Documentation** |
+| FRS             | FRS_Template.docx               | FRS_Healthcare_Appointment_System.docx   | **1_Requirements_Documentation** |
+| RTM             | RTM_Template.xlsx               | Requirements_Traceability_Matrix.xlsx    | **4_Traceability_Stakeholders** |
+| RACI            | RACI_Template.xlsx              | RACI_Example.xlsx                        | **4_Traceability_Stakeholders** |
+| Stakeholder Map | Stakeholder_Map_Template.docx   | Stakeholder_Map_Example.docx             | **4_Traceability_Stakeholders** |
+| UAT Plan        | UAT_Plan_Template.docx          | UAT_Plan_Example.docx                    | **5_Testing_UAT** |
+| UAT Cases       | UAT_Test_Cases_Template.xlsx    | UAT_Test_Cases_Example.xlsx              | **5_Testing_UAT** |
+| UAT Feedback    | UAT_Feedback_Form_Template.docx | UAT_Feedback_Form_Filled.docx            | **5_Testing_UAT** |
+| Defect Log      | Defect_Log_Template.xlsx        | Defect_Log_Example.xlsx                  | **5_Testing_UAT** |
 
 ---
 
 ### ✅ Quick Start (90-Second Checklist)  
-1. **Download** the `Templates-Starter.zip` from Releases *(starter pack)* or **Fork** this repo.  
+1. **Download** the `Templates-Starter.zip` from Releases *(coming soon)* or **Fork** this repo.  
 2. **Rename & version** files using:  
    `Artifact_<ProjectName>_vMAJOR.MINOR_YYYY-MM-DD.ext`  
    → Example: `BRD_PatientPortal_v1.0_2025-09-22.docx`  
@@ -89,7 +111,7 @@ Blank templates are provided alongside filled examples to guide quality standard
 ## 📊 Artifact Categories  
 
 - **Requirements Documentation:** BRD, FRS, NFR  
-- **Modeling & Diagrams:** BPMN, UML Use Case, ERD, DFD  
+- **Modeling & Diagrams:** BPMN (As-Is/To-Be), UML Use Case, ERD, DFD  
 - **Traceability & Stakeholder Management:** RTM, RACI, Stakeholder Maps  
 - **Testing & Quality:** UAT Plans, Test Cases, Feedback Forms, Defect Logs  
 
@@ -97,7 +119,7 @@ Blank templates are provided alongside filled examples to guide quality standard
 
 ## 🚀 Navigation  
 
-- Browse by folder (`1_Requirements_Documentation`, `4_Traceability_Stakeholders`, `5_Testing_UAT`)  
+- Browse by folder (**1_Requirements_Documentation**, **4_Traceability_Stakeholders**, **5_Testing_UAT**)  
 - Review **filled examples** first for context  
 - Adapt **blank templates** for your own projects  
 - Use the **starter ZIP** for quick setup  
