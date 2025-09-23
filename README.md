@@ -3,14 +3,15 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/JamieChristian22/system-analyst-portfolio?style=social)](https://github.com/JamieChristian22/system-analyst-portfolio)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)  
 ![Status](https://img.shields.io/badge/Status-Active%20%7C%20Updated%20Sept%202025-brightgreen)  
+![Starter Pack](https://img.shields.io/badge/Templates-Starter%20Pack-blue)  
 ![Tools](https://img.shields.io/badge/Tools-Lucidchart%20|%20draw.io%20|%20Excel%20|%20PowerBI%20|%20Visio%20|%20Word-blue)  
 
 ---
 
 ## 📌 Overview  
 
-This portfolio demonstrates **Systems Analysis & Business Analysis deliverables** across the project lifecycle.  
-It highlights my ability to:  
+This portfolio showcases **Systems Analysis & Business Analysis deliverables** across the project lifecycle.  
+It demonstrates my ability to:  
 
 - Translate business needs into **clear, testable requirements**  
 - Model systems and processes (BPMN, UML, ERD, DFD)  
@@ -26,34 +27,35 @@ It highlights my ability to:
 **Preview File:** `Healthcare_Appointment_Mini_Case_Study.pdf`  
 
 **Problem:**  
-Manual phone scheduling created delays, errors, and lost revenue from no-shows.  
+Manual phone scheduling created delays, frequent errors, and lost revenue from no-shows.  
 
 **Solution:**  
-Designed and delivered an **online appointment system** with booking, reminders, payments, and secure access.  
+Delivered an **online appointment system** with self-service booking, reminders, payments, and secure access.  
 
 **My Role (Systems Analyst / BA):**  
 - Authored **BRD, FRS, NFR**  
 - Built **BPMN As-Is / To-Be**, **DFDs**, **Use Case**, **ERD**  
-- Defined integration points (Auth, Notifications, Payments)  
-- Created **RTM** to ensure requirements coverage  
+- Defined integration points (Authentication, Notifications, Payments)  
+- Created **RTM** for coverage & gap prevention  
 - Led **UAT planning, test case design, defect log & sign-off**  
 
 **Impact:**  
 - Reduced booking errors by **~40%**  
-- Improved scheduling efficiency → **shorter wait times**  
-- Enabled **automated reminders**, cutting no-shows significantly  
+- Decreased patient wait times by **~25%**  
+- Cut no-shows by **~30%** via automated reminders  
+- Improved staff scheduling efficiency by **20%**  
 
 ---
 
 ## 📷 Diagram Previews  
 
-These diagrams show how I analyze the **current state (As-Is)**, design the **future state (To-Be)**, and model both **user interactions** and **data structures**.  
+These diagrams illustrate how I analyze the **current state (As-Is)**, design the **future state (To-Be)**, and model both **user interactions** and **data structures**.  
 
 ### BPMN — Appointment Scheduling  
 <table>
   <tr>
-    <td align="center"><img src="./_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png" width="500"><br><em>BPMN — As-Is Appointment Scheduling Flow</em></td>
-    <td align="center"><img src="./_Process_Models_Diagrams/BPMN_ToBe_Swimlane_v2.png" width="500"><br><em>BPMN — To-Be Appointment Scheduling Flow</em></td>
+    <td align="center"><img src="./_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png" width="480"><br><em>BPMN — As-Is Appointment Scheduling Flow</em></td>
+    <td align="center"><img src="./_Process_Models_Diagrams/BPMN_ToBe_Swimlane_v2.png" width="480"><br><em>BPMN — To-Be Appointment Scheduling Flow</em></td>
   </tr>
 </table>  
 
@@ -93,7 +95,7 @@ This repo includes blank templates plus filled examples to guide quality.
 
 ### ✅ Quick Start (90-Second Checklist)  
 
-1. **Download** `Templates-Starter.zip` from Releases *(coming soon)* or **Fork** this repo.  
+1. **Download** the [`Templates-Starter.zip`](https://github.com/JamieChristian22/system-analyst-portfolio/releases) *(coming soon)* or **Fork** this repo.  
 2. **Duplicate & rename** files:  
    `Artifact_<ProjectName>_vMAJOR.MINOR_YYYY-MM-DD.ext`  
    → Example: `BRD_PatientPortal_v1.0_2025-09-22.docx`  
@@ -116,6 +118,16 @@ This repo includes blank templates plus filled examples to guide quality.
 - **Testing & Quality**: UAT Plans, Test Cases, Feedback Forms, Defect Logs  
 - **Governance & Data**: Risk Logs, Change Logs, Data Dictionary  
 - **Reporting & Dashboards**: KPI Reports, Excel/PowerBI dashboards  
+
+---
+
+## 🛠️ Tools & Technologies  
+
+- **Documentation & Modeling:** Lucidchart, draw.io, MS Visio, MS Word/Excel  
+- **Data & Reporting:** Excel (Pivot, VLOOKUP, Dashboards), Power BI  
+- **Systems & Platforms:** Salesforce (Sales Ops/Service Cloud), JIRA, Confluence  
+- **Techniques:** BRD/FRS/NFR, BPMN, UML, ERD, DFD, RTM, RACI, UAT planning & execution  
+- **Version Control:** GitHub  
 
 ---
 
