@@ -44,7 +44,7 @@ Designed and delivered an **online appointment system** covering search, booking
 - Notification & reminder system  
 
 📷 **Diagram Preview**  
-*(Full diagrams inside the repo)*  
+*[(Full diagrams inside the repo)](https://github.com/JamieChristian22/system-analyst-portfolio/blob/main/_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png)*  
 
 ![BPMN — Appointment Scheduling](previews/bpmn_appointment_flow.png)  
 *BPMN — To-Be Appointment Scheduling Flow*  
