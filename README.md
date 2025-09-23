@@ -1,209 +1,124 @@
-# 🖥️ Systems Analyst Portfolio — Jamie Christian
+# 🖥️ Systems Analyst Portfolio  
 
-![Focus](https://img.shields.io/badge/Focus-Systems%20Analysis-blue)
-![Artifacts](https://img.shields.io/badge/Artifacts-BRD%20|%20FRS%20|%20UML%20|%20BPMN%20|%20UAT-orange)
-![Quality](https://img.shields.io/badge/Portfolio-10%2F10%20Polished-success)
-![Tools](https://img.shields.io/badge/Tools-Word%20%7C%20Excel%20%7C%20Lucidchart%20%7C%20draw.io%20%7C%20Power%20BI-795548)
-![License: MIT](https://img.shields.io/badge/License-MIT-green)
-
-Recruiter-ready **Systems Analyst** portfolio for a **Healthcare Appointment System**, covering requirements (BRD/FRS/NFR), modeling (Context/DFD/UML/BPMN/ERD), testing (UAT plan/cases/feedback), governance (RTM/RACI/Risks/Changes), integrations, and KPI dashboard.
-
-_Last updated: 2025-09-22_
+[![GitHub Repo stars](https://img.shields.io/github/stars/JamieChristian22/system-analyst-portfolio?style=social)](https://github.com/JamieChristian22/system-analyst-portfolio)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)  
 
 ---
 
-## 🔎 Table of Contents
-- [Quick Links](#-quick-links)
-- [Mini Case Study (1-pager)](#mini-case-study-1pager)
-- [Repository Structure](#repository-structure)
-- [Folder Guide (What’s Where)](#folder-guide-whats-where)
-- [Visual Preview](#visual-preview)
-- [♻️ Reuse Templates](#️-reuse-templates)
-- [🛠️ Tools & Skills](#️-tools--skills)
-- [**ABOUT ME**](#about-me)
-- [License](#license)
+## 📌 Overview  
+
+This portfolio showcases **Systems Analysis & Business Analysis deliverables** across the project lifecycle.  
+Artifacts demonstrate skills in requirements gathering, process modeling, stakeholder management, testing, and traceability — essential for entry-level to mid-level analyst roles.  
+
+**Core focus areas**:  
+- Requirements Documentation (BRD, FRS, NFR)  
+- Modeling (BPMN, DFD, UML, ERD)  
+- Traceability (RTM, RACI, Stakeholder Mapping)  
+- Testing & Quality (UAT Plans, Test Cases, Defect Logs)  
 
 ---
 
-## 🔗 Quick Links
-- BRD → `1_Requirements_Documentation/BRD_Healthcare_Appointment_System.docx`  
-- FRS → `1_Requirements_Documentation/FRS_Healthcare_Appointment_System.docx`  
-- **System Architecture** → `2_Process_Models_Diagrams/System_Architecture_Diagram.png`  
-- **Payment Flow** → `2_Process_Models_Diagrams/Payment_Gateway_Integration_v2.png`  
-- **KPI Dashboard (PNG)** → `7_Reports_Dashboards/KPI_Dashboard_Formatted.png`  
-- **UAT (Filled)** → `5_Testing_UAT/UAT_Feedback_Form_Filled.docx`  
-- **RTM** → `4_Traceability_Stakeholders/Requirements_Traceability_Matrix.xlsx`  
-- **Case Study PDF** → `Healthcare_Appointment_Mini_Case_Study.pdf`
+## 🗂️ Portfolio Highlights  
+
+### 📄 Mini Case Study — Healthcare Appointment System  
+**Download / Preview:**  
+[Healthcare_Appointment_Mini_Case_Study.pdf](Healthcare_Appointment_Mini_Case_Study.pdf)  
+
+**Context**  
+Manual, phone-based scheduling led to long wait times, data entry errors, and missed revenue from no-shows. I designed and delivered an online appointment solution with end-to-end flows for search, booking, reminders, and payments.  
+
+**My Role (Systems Analyst / BA)**  
+- Elicited & documented requirements (**BRD, FRS, NFR**)  
+- Modeled processes & data (**BPMN As-Is/To-Be, DFD L0/L1, UML Use Case, ERD**)  
+- Drove integration design (**Auth, Notifications, Payments**) and RTM mapping  
+- Led **UAT** planning, test cases, and sign-off evidence  
+
+**Scope & Integrations**  
+- Patient portal (web/mobile)  
+- Appointment scheduling engine  
+- Secure payment gateway integration  
+- Notification & reminder system  
 
 ---
 
-## Mini Case Study (1-pager)
+## ♻️ Reuse Templates  
 
-**Problem → Objective → Outcome**  
-Manual, phone-based scheduling created long waits and errors. We deployed an **online booking portal** integrated with **notifications** and **billing** to increase throughput and visibility. Outcomes: **booking time 1.8 min**, **no-show 8%**, **billing accuracy 95%**. 
+Use these blanks, then peek at filled examples to calibrate quality.
 
-**KPIs (from production rollout mock)**
-
-| KPI                         | Baseline | Target | Outcome | Status    |
-|----------------------------|:--------:|:------:|:-------:|-----------|
-| Average Booking Time (min) |   3.5    | ≤ 2.0  | **1.8** | On Track  |
-| No-Show Rate (%)           |   12%    | < 10%  | **8%**  | On Track  |
-| Billing Accuracy (%)       |   88%    | ≥ 98%  | **95%** | Improving |
-| Staff Utilization (%)      |   75%    | ≥ 85%  | **88%** | On Track  |
-
-**Artifacts supporting the case study**
-- Requirements: **BRD / FRS / NFR**  
-- Models: **Context/DFD**, **UML Use Case**, **ERD**, **BPMN As-Is/To-Be**  
-- Integrations: **System Architecture** + **Payment Gateway Flow**  
-- Quality: **UAT Plan**, **Test Cases**, **Defect Log**, **Filled Feedback**  
-- Governance: **RTM**, **RACI**, **Stakeholder Map**, **Risk**, **Change Log**  
-- Analytics: **KPI Dashboard**
-
-> Open the full narrative: `Healthcare_Appointment_Mini_Case_Study.pdf`
+| 📄 Artifact | 📝 Blank Template | ✅ Filled Example | 📂 Folder to Place |
+|---|---|---|---|
+| BRD | [BRD_Template.docx](1_Requirements_Documentation/BRD_Template.docx) | [BRD_Healthcare_Appointment_System.docx](1_Requirements_Documentation/BRD_Healthcare_Appointment_System.docx) | `1_Requirements_Documentation` |
+| FRS | [FRS_Template.docx](1_Requirements_Documentation/FRS_Template.docx) | [FRS_Healthcare_Appointment_System.docx](1_Requirements_Documentation/FRS_Healthcare_Appointment_System.docx) | `1_Requirements_Documentation` |
+| RTM | [RTM_Template.xlsx](4_Traceability_Stakeholders/RTM_Template.xlsx) | [Requirements_Traceability_Matrix.xlsx](4_Traceability_Stakeholders/Requirements_Traceability_Matrix.xlsx) | `4_Traceability_Stakeholders` |
+| RACI | [RACI_Template.xlsx](4_Traceability_Stakeholders/RACI_Template.xlsx) | [RACI_Example.xlsx](4_Traceability_Stakeholders/RACI_Example.xlsx) | `4_Traceability_Stakeholders` |
+| Stakeholder Map | [Stakeholder_Map_Template.docx](4_Traceability_Stakeholders/Stakeholder_Map_Template.docx) | [Stakeholder_Map_Example.docx](4_Traceability_Stakeholders/Stakeholder_Map_Example.docx) | `4_Traceability_Stakeholders` |
+| UAT Plan | [UAT_Plan_Template.docx](5_Testing_UAT/UAT_Plan_Template.docx) | [UAT_Plan_Example.docx](5_Testing_UAT/UAT_Plan_Example.docx) | `5_Testing_UAT` |
+| UAT Cases | [UAT_Test_Cases_Template.xlsx](5_Testing_UAT/UAT_Test_Cases_Template.xlsx) | [UAT_Test_Cases_Example.xlsx](5_Testing_UAT/UAT_Test_Cases_Example.xlsx) | `5_Testing_UAT` |
+| UAT Feedback | [UAT_Feedback_Form_Template.docx](5_Testing_UAT/UAT_Feedback_Form_Template.docx) | [UAT_Feedback_Form_Filled.docx](5_Testing_UAT/UAT_Feedback_Form_Filled.docx) | `5_Testing_UAT` |
+| Defect Log | [Defect_Log_Template.xlsx](5_Testing_UAT/Defect_Log_Template.xlsx) | [Defect_Log_Example.xlsx](5_Testing_UAT/Defect_Log_Example.xlsx) | `5_Testing_UAT` |
 
 ---
 
-## Repository Structure
+**How to reuse (90-second checklist)**  
+1. **Download** the [Templates-Starter.zip](../../releases) *(one-click starter pack)* or **Fork** this repo.  
+2. **Duplicate & rename** using this scheme:  
+   `Artifact_<ProjectName>_vMAJOR.MINOR_YYYY-MM-DD.ext`  
+   → Example: `BRD_PatientPortal_v1.0_2025-09-22.docx`  
+3. **Keep folder names** exactly as shown so README links don’t break.  
+4. **Export diagrams** from Lucidchart/draw.io as **PNG**:  
+   - Width: 1920px (or 2× scale)  
+   - Background: Transparent **off**  
+   - Padding: 16px  
+   - Result: Crisp, consistent previews  
+5. **License:** Templates are MIT-licensed — reuse freely; attribution appreciated. See [`LICENSE`](./LICENSE).  
 
-# 🖥️ Systems Analyst Portfolio — Jamie Christian
-
-![Focus](https://img.shields.io/badge/Focus-Systems%20Analysis-blue)
-![Artifacts](https://img.shields.io/badge/Artifacts-BRD%20|%20FRS%20|%20UML%20|%20BPMN%20|%20UAT-orange)
-![Quality](https://img.shields.io/badge/Portfolio-10%2F10%20Polished-success)
-![Tools](https://img.shields.io/badge/Tools-Word%20%7C%20Excel%20%7C%20Lucidchart%20%7C%20draw.io%20%7C%20Power%20BI-795548)
-![License: MIT](https://img.shields.io/badge/License-MIT-green)
-
-Recruiter-ready **Systems Analyst** portfolio for a **Healthcare Appointment System**, covering requirements (BRD/FRS/NFR), modeling (Context/DFD/UML/BPMN/ERD), testing (UAT plan/cases/feedback), governance (RTM/RACI/Risks/Changes), integrations, and KPI dashboard.
-
-_Last updated: 2025-09-22_
-
----
-
-## 🔎 Table of Contents
-- [Quick Links](#-quick-links)
-- [Mini Case Study (1-pager)](#mini-case-study-1pager)
-- [Repository Structure](#repository-structure)
-- [Folder Guide (What’s Where)](#folder-guide-whats-where)
-- [Visual Preview](#visual-preview)
-- [♻️ Reuse Templates](#️-reuse-templates)
-- [🛠️ Tools & Skills](#️-tools--skills)
-- [**ABOUT ME**](#about-me)
-- [License](#license)
+💡 **Tip:** Start with **BRD → FRS → RTM**, then move to **Use Case + BPMN**, then finish with **UAT Plan / Cases / Feedback**.  
+⚠️ **Versioning note:** Always check timestamps on filled examples. The latest ones reflect current standards.  
 
 ---
 
-## 🔗 Quick Links
-- BRD → `1_Requirements_Documentation/BRD_Healthcare_Appointment_System.docx`  
-- FRS → `1_Requirements_Documentation/FRS_Healthcare_Appointment_System.docx`  
-- **System Architecture** → `2_Process_Models_Diagrams/System_Architecture_Diagram.png`  
-- **Payment Flow** → `2_Process_Models_Diagrams/Payment_Gateway_Integration_v2.png`  
-- **KPI Dashboard (PNG)** → `7_Reports_Dashboards/KPI_Dashboard_Formatted.png`  
-- **UAT (Filled)** → `5_Testing_UAT/UAT_Feedback_Form_Filled.docx`  
-- **RTM** → `4_Traceability_Stakeholders/Requirements_Traceability_Matrix.xlsx`  
-- **Case Study PDF** → `Healthcare_Appointment_Mini_Case_Study.pdf`
+## 📊 Artifacts by Category  
+
+- **Requirements Documentation**  
+  - BRD, FRS, NFR templates + filled examples  
+
+- **Modeling & Diagrams**  
+  - BPMN As-Is/To-Be swimlanes  
+  - UML Use Case, ERD, DFD L0/L1  
+
+- **Traceability & Stakeholder Management**  
+  - RTM, RACI charts, stakeholder maps  
+
+- **Testing & Quality**  
+  - UAT Plan, Test Cases, Feedback Forms, Defect Logs  
 
 ---
 
-## Mini Case Study (1-pager)
+## 🚀 How to Navigate  
 
-**Problem → Objective → Outcome**  
-Manual, phone-based scheduling created long waits and errors. We deployed an **online booking portal** integrated with **notifications** and **billing** to increase throughput and visibility. Outcomes: **booking time 1.8 min**, **no-show 8%**, **billing accuracy 95%**. :contentReference[oaicite:0]{index=0}
-
-**KPIs (from production rollout mock)**
-
-| KPI                         | Baseline | Target | Outcome | Status    |
-|----------------------------|:--------:|:------:|:-------:|-----------|
-| Average Booking Time (min) |   3.5    | ≤ 2.0  | **1.8** | On Track  |
-| No-Show Rate (%)           |   12%    | < 10%  | **8%**  | On Track  |
-| Billing Accuracy (%)       |   88%    | ≥ 98%  | **95%** | Improving |
-| Staff Utilization (%)      |   75%    | ≥ 85%  | **88%** | On Track  |
-
-**Artifacts supporting the case study**
-- Requirements: **BRD / FRS / NFR**  
-- Models: **Context/DFD**, **UML Use Case**, **ERD**, **BPMN As-Is/To-Be**  
-- Integrations: **System Architecture** + **Payment Gateway Flow**  
-- Quality: **UAT Plan**, **Test Cases**, **Defect Log**, **Filled Feedback**  
-- Governance: **RTM**, **RACI**, **Stakeholder Map**, **Risk**, **Change Log**  
-- Analytics: **KPI Dashboard**
-
-> Open the full narrative: `Healthcare_Appointment_Mini_Case_Study.pdf`
+- Browse by folder (`1_Requirements_Documentation`, `4_Traceability_Stakeholders`, `5_Testing_UAT`).  
+- Open filled examples first to see context, then adapt blanks.  
+- Use [Templates-Starter.zip](../../releases) for a quick start.  
 
 ---
 
-## Folder Guide (What’s Where)
+## 📜 License  
 
-| Folder | What’s inside | Skills Demonstrated |
-|---|---|---|
-| `1_Requirements_Documentation` | BRD, FRS, NFR | Elicitation, scoping, constraints, non-functional design |
-| `2_Process_Models_Diagrams` | Context, DFD L1, UML Use Case, ERD, BPMN (As-Is/To-Be), Architecture, Payment Flow | Systems thinking, BPMN/UML/ER modeling, integration design |
-| `3_User_Stories_Use_Cases` | Backlog, detailed use case | Agile analysis, acceptance criteria, scenario design |
-| `4_Traceability_Stakeholders` | RTM, RACI, Stakeholder Map | Traceability, roles & responsibilities, stakeholder alignment |
-| `5_Testing_UAT` | UAT plan, test cases, feedback (blank + filled), defect log | UAT planning, quality gates, sign-off evidence |
-| `6_Governance_Data` | Data dictionary, risk register, change log | Data literacy, risk & change control |
-| `7_Reports_Dashboards` | KPI Excel + PNG | Outcome orientation, BI handoff |
+MIT License — see [LICENSE](./LICENSE).  
+You’re free to reuse templates, adapt for personal or professional projects, and share improvements.  
 
 ---
 
+## 🙋 About Me  
 
-## Visual Preview
+I’m **Jamie Christian** — Business & Systems Analyst with certifications in **ECBA, Google Data Analytics, Salesforce, and Systems Analysis**.  
+I specialize in:  
+- Turning business needs into functional/technical requirements  
+- Modeling processes for efficiency  
+- Designing traceability systems that prevent gaps  
+- Enabling smooth UAT and deployment readiness  
 
-> PNGs render inline on GitHub for fast screening.
-
-## Visual Preview
-
-> PNGs render inline on GitHub for fast screening.
-
-### KPI Dashboard
-[![KPI Dashboard](Reports_Dashboards/KPI_Dashboard_Formatted.png)](Reports_Dashboards/KPI_Dashboard_Formatted.png)
-
-### BPMN — As-Is / To-Be
-<p float="left">
-  <a href="_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png">
-    <img src="_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png" alt="BPMN As-Is" width="48%">
-  </a>
-  <a href="_Process_Models_Diagrams/BPMN_ToBe_Swimlane_v2.png">
-    <img src="_Process_Models_Diagrams/BPMN_ToBe_Swimlane_v2.png" alt="BPMN To-Be" width="48%">
-  </a>
-</p>
-
-### Architecture & Payments
-<p float="left">
-  <a href="System_Analysis_Integration/System_Architecture_Diagram.png">
-    <img src="System_Analysis_Integration/System_Architecture_Diagram.png" alt="System Architecture" width="48%">
-  </a>
-  <a href="_Process_Models_Diagrams/Payment_Integration_Flow_v2.png">
-    <img src="_Process_Models_Diagrams/Payment_Integration_Flow_v2.png" alt="Payment Integration Flow" width="48%">
-  </a>
-</p>
-
+🔗 **Let’s connect:** [LinkedIn](https://www.linkedin.com/in/jamiechristian22) • [GitHub](https://github.com/JamieChristian22)  
 
 ---
-
-## **♻️ Reuse Templates**
-- Duplicate any **.docx/.xlsx** artifact (BRD, RTM, UAT, Stakeholder Map, etc.).
-- Export new diagrams from **Lucidchart** or **draw.io** as **PNG** for clean GitHub previews.
-- Keep **folder names** consistent so links remain valid.
-
-## **🛠️ Tools & Skills**
-- **Docs:** Word, Excel  
-- **Modeling:** Lucidchart / draw.io  
-- **Data:** SQL (mock)  
-- **BI:** Excel / Power BI (mock)  
-- **Testing:** UAT templates & defect tracking  
-- **Methods:** SDLC, BPMN, UML, Requirements Traceability
-
----
-
-## **ABOUT ME**
-
-**Jamie Christian** — **Systems Analyst**  
-**LinkedIn:** [www.linkedin.com/in/jamiechristian2](https://www.linkedin.com/in/jamiechristian2)  
-**Email:** [jamiechristian331@gmail.com](mailto:jamiechristian331@gmail.com)  
-**Focus:** **Process improvement • Requirements & modeling • Data-driven decision support**
-
----
-
-## License
-
-MIT License — add a separate `LICENSE` file if you want GitHub to auto-detect the license.
 
