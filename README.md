@@ -1,167 +1,151 @@
-# 🖥️ Systems Analyst Portfolio — Jamie Christian  
+# 🖥️ Systems Analyst Portfolio
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/JamieChristian22/system-analyst-portfolio?style=social)](https://github.com/JamieChristian22/system-analyst-portfolio)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)  
-![Status](https://img.shields.io/badge/Status-Active%20%7C%20Updated%20Sept%202025-brightgreen)  
-![Starter Pack](https://img.shields.io/badge/Templates-Starter%20Pack-blue)  
-![Tools](https://img.shields.io/badge/Tools-Lucidchart%20|%20draw.io%20|%20Excel%20|%20PowerBI%20|%20Visio%20|%20Word-blue)  
+### Requirements • Systems Analysis • Process Modeling • APIs & Integrations • Data • UAT • Implementation • Production Support
 
----
-
-## 📌 Overview  
-
-This portfolio showcases **Systems Analysis & Business Analysis deliverables** across the project lifecycle.  
-It demonstrates my ability to:  
-
-- Translate business needs into **clear, testable requirements**  
-- Model systems and processes (BPMN, UML, ERD, DFD)  
-- Maintain traceability through RTMs, RACIs, and stakeholder maps  
-- Drive UAT and QA for smooth delivery  
-- Present insights via dashboards and reports  
+**Jamie Christian II**  
+Systems Analyst | Business Systems Analyst | Technical Systems Analysis
 
 ---
 
-## 🗂️ Featured Case Study  
+## 📌 Portfolio Overview
 
-### 📄 Healthcare Appointment System  
-**Preview File:** `Healthcare_Appointment_Mini_Case_Study.pdf`  
+This repository demonstrates end-to-end **Systems Analyst** work through a fully populated healthcare appointment-system case study and supporting enterprise analysis artifacts.
 
-**Problem:**  
-Manual phone scheduling created delays, frequent errors, and lost revenue from no-shows.  
+The portfolio follows the complete systems lifecycle:
 
-**Solution:**  
-Delivered an **online appointment system** with self-service booking, reminders, payments, and secure access.  
+**Business Need → Requirements → Process Analysis → System Modeling → Interfaces & APIs → Data Mapping → Security & NFRs → Traceability → UAT → Cutover → Production Support → Continuous Improvement**
 
-**My Role (Systems Analyst / BA):**  
-- Authored **BRD, FRS, NFR**  
-- Built **BPMN As-Is / To-Be**, **DFDs**, **Use Case**, **ERD**  
-- Defined integration points (Authentication, Notifications, Payments)  
-- Created **RTM** for coverage & gap prevention  
-- Led **UAT planning, test case design, defect log & sign-off**  
+The work is designed to demonstrate not only requirements documentation, but also the technical analysis layer expected from Systems Analysts who coordinate business, application, data, integration, security, testing, and operations teams.
 
-**Impact:**  
-- Reduced booking errors by **~40%**  
-- Decreased patient wait times by **~25%**  
-- Cut no-shows by **~30%** via automated reminders  
-- Improved staff scheduling efficiency by **20%**  
+> **Portfolio Disclosure:** The healthcare organization, system, users, integrations, metrics, defects, incidents, risks, volumes, and performance outcomes in this repository are realistic simulations created for professional demonstration. They are not presented as employment history or confidential production data.
 
 ---
 
-## 📷 Diagram Previews  
+# ⭐ Portfolio at a Glance
 
-These diagrams illustrate how I analyze the **current state (As-Is)**, design the **future state (To-Be)**, and model both **user interactions** and **data structures**.  
-
-### BPMN — Appointment Scheduling  
-<table>
-  <tr>
-    <td align="center"><img src="./_Process_Models_Diagrams/BPMN_AsIs_Swimlane_v2.png" width="480"><br><em>BPMN — As-Is Appointment Scheduling Flow</em></td>
-    <td align="center"><img src="./_Process_Models_Diagrams/BPMN_ToBe_Swimlane_v2.png" width="480"><br><em>BPMN — To-Be Appointment Scheduling Flow</em></td>
-  </tr>
-</table>  
-
----
-
-### UML Use Case — Appointment System  
-<img src="./_Process_Models_Diagrams/UML_UseCase_Updated.png" width="700">  
-*Actors and system interactions for booking & records*  
-
----
-
-### ERD — Appointment System  
-<img src="./_Process_Models_Diagrams/ERD_Updated.png" width="700">  
-*Entity Relationship Diagram — Core Data Model (Patients, Appointments, Payments)*  
-
-👉 [View all diagrams here](./_Process_Models_Diagrams/)  
+| Area | Evidence |
+|---|---|
+| Business & Functional Requirements | BRD, FRS, business rules, user stories, use cases |
+| Nonfunctional Requirements | Performance, availability, security, audit, backup, recovery |
+| Process Analysis | As-Is and To-Be BPMN-style flows |
+| System Modeling | Context, component, sequence, deployment, DFD, ERD |
+| API & Integration Analysis | Interface Control Document, API requirements, error handling, event catalog |
+| Data Analysis | Data dictionary, source-to-target mapping, CRUD matrix, validation rules |
+| Security | Authentication, authorization, role-permission matrix, security requirements |
+| Traceability | Requirements Traceability Matrix, RACI, stakeholder map |
+| Testing | UAT plan, test cases, defect triage, sign-off |
+| Implementation | Cutover plan, production-readiness checklist, rollback plan |
+| Production Support | Support model, incident triage, RCA, monitoring requirements |
+| Change Management | Change impact assessment, system change log |
+| Executive Reporting | KPI dashboard and system-health reporting |
 
 ---
 
-## ♻️ Reuse Templates  
+# 🏥 Featured Case Study
 
-This repo includes blank templates plus filled examples to guide quality.  
+## Healthcare Appointment Management System
 
-| Artifact        | Blank Template                  | Filled Example                           | Folder Location              |
-|-----------------|---------------------------------|------------------------------------------|------------------------------|
-| BRD             | BRD_Template.docx               | BRD_Healthcare_Appointment_System.docx   | **1_Requirements_Documentation** |
-| FRS             | FRS_Template.docx               | FRS_Healthcare_Appointment_System.docx   | **1_Requirements_Documentation** |
-| RTM             | RTM_Template.xlsx               | Requirements_Traceability_Matrix.xlsx    | **4_Traceability_Stakeholders** |
-| RACI            | RACI_Template.xlsx              | RACI_Example.xlsx                        | **4_Traceability_Stakeholders** |
-| Stakeholder Map | Stakeholder_Map_Template.docx   | Stakeholder_Map_Example.docx             | **4_Traceability_Stakeholders** |
-| UAT Plan        | UAT_Plan_Template.docx          | UAT_Plan_Example.docx                    | **5_Testing_UAT** |
-| UAT Cases       | UAT_Test_Cases_Template.xlsx    | UAT_Test_Cases_Example.xlsx              | **5_Testing_UAT** |
-| UAT Feedback    | UAT_Feedback_Form_Template.docx | UAT_Feedback_Form_Filled.docx            | **5_Testing_UAT** |
-| Defect Log      | Defect_Log_Template.xlsx        | Defect_Log_Example.xlsx                  | **5_Testing_UAT** |
+A simulated outpatient healthcare organization relied on phone-based scheduling, manual reminders, disconnected payment handling, and spreadsheet-based staff coordination.
 
----
+The modernized solution introduces:
 
-### ✅ Quick Start (90-Second Checklist)  
+- Patient self-service appointment booking
+- Provider schedule management
+- Automated SMS/email reminders
+- Secure patient authentication
+- Payment authorization and receipt workflow
+- Cancellation and rescheduling
+- Waitlist management
+- Operational reporting
+- Audit logging
+- Role-based access
+- Integration monitoring
 
-1. **Download** the [`Templates-Starter.zip`](https://github.com/JamieChristian22/system-analyst-portfolio/releases) *(coming soon)* or **Fork** this repo.  
-2. **Duplicate & rename** files:  
-   `Artifact_<ProjectName>_vMAJOR.MINOR_YYYY-MM-DD.ext`  
-   → Example: `BRD_PatientPortal_v1.0_2025-09-22.docx`  
-3. **Keep folder names** consistent (see table above).  
-4. **Export diagrams** (Lucidchart / draw.io) as PNG:  
-   - Width: 1920px (or 2× scale)  
-   - Background: Transparent **off**  
-   - Padding: 16px  
-5. **License:** MIT — free to reuse; attribution appreciated.  
+### Simulated Business Outcomes
 
-💡 Suggested workflow → **BRD → FRS → RTM → Use Case + BPMN → UAT**  
+| KPI | Baseline | Target / Result |
+|---|---:|---:|
+| Booking Error Rate | 8.5% | **5.1%** |
+| Average Scheduling Wait | 12.0 min | **9.0 min** |
+| Appointment No-Show Rate | 18.0% | **12.6%** |
+| Staff Scheduling Admin Time | 25 hrs/week | **20 hrs/week** |
+| Online Booking Adoption | 0% | **64%** |
+| Successful Reminder Delivery | 0% | **96.8%** |
 
 ---
 
-## 📊 Artifact Categories  
+# 📁 Repository Structure
 
-- **Requirements Documentation**: BRD, FRS, NFR  
-- **Modeling & Diagrams**: BPMN (As-Is/To-Be), UML Use Case, ERD, DFD  
-- **Traceability & Stakeholder Mgmt**: RTM, RACI, Stakeholder Maps  
-- **Testing & Quality**: UAT Plans, Test Cases, Feedback Forms, Defect Logs  
-- **Governance & Data**: Risk Logs, Change Logs, Data Dictionary  
-- **Reporting & Dashboards**: KPI Reports, Excel/PowerBI dashboards  
-
----
-
-## 🛠️ Tools & Technologies  
-
-- **Documentation & Modeling:** Lucidchart, draw.io, MS Visio, MS Word/Excel  
-- **Data & Reporting:** Excel (Pivot, VLOOKUP, Dashboards), Power BI  
-- **Systems & Platforms:** Salesforce (Sales Ops/Service Cloud), JIRA, Confluence  
-- **Techniques:** BRD/FRS/NFR, BPMN, UML, ERD, DFD, RTM, RACI, UAT planning & execution  
-- **Version Control:** GitHub  
+```text
+system-analyst-portfolio/
+│
+├── README.md
+├── 01_Requirements_Documentation/
+├── 02_Process_System_Models/
+├── 03_System_Analysis_Integration/
+├── 04_Data_Security_NFR/
+├── 05_Traceability_Stakeholders/
+├── 06_Testing_UAT/
+├── 07_Implementation_Support/
+├── 08_Reports_Dashboards/
+└── 09_Healthcare_Appointment_System_Case_Study/
+```
 
 ---
 
-## 🚀 Navigation  
+# 🧠 Systems Analyst Capabilities Demonstrated
 
-- Browse by folder (**1_Requirements_Documentation**, **4_Traceability_Stakeholders**, **5_Testing_UAT**)  
-- Start with **filled examples** → adapt **blank templates**  
-- Use the **starter ZIP** for a one-click setup  
+- Requirements elicitation and specification
+- Business-rule analysis
+- Functional decomposition
+- Process redesign
+- System context analysis
+- Application/component analysis
+- Interface and API specification
+- Data mapping and validation
+- Security and access analysis
+- Nonfunctional requirements
+- Traceability and impact analysis
+- UAT planning and defect triage
+- Cutover and rollback planning
+- Production-readiness assessment
+- Incident analysis and RCA
+- Monitoring and support design
+- Change impact management
+- Stakeholder communication
+- Executive KPI reporting
+
+---
+
+# 🛠️ Tools & Methods
+
+`BPMN` • `UML` • `ERD` • `DFD` • `SQL Concepts` • `REST APIs` • `JSON` • `Jira` • `Confluence` • `Excel` • `Power BI Concepts` • `Lucidchart / draw.io Concepts` • `UAT` • `RTM` • `RACI`
 
 ---
 
-## 📜 License  
+# 💼 Roles This Portfolio Supports
 
-Released under the **MIT License**.  
-Free to reuse, adapt, and share — attribution welcome but not required.  
-See [`LICENSE`](./LICENSE).  
+- Junior Systems Analyst
+- Systems Analyst I
+- Business Systems Analyst
+- Application Systems Analyst
+- IT Systems Analyst
+- Technical Business Analyst
+- Systems Implementation Analyst
+
+---
+
+# 🔗 Connect
+
+**GitHub:** https://github.com/JamieChristian22  
+**LinkedIn:** https://www.linkedin.com/in/jamiechristian2/
 
 ---
 
-## 🙋 About Me  
+## Disclaimer
 
-I’m **Jamie Christian** — Business & Systems Analyst with certifications in:  
-- ECBA (Entry Certificate in Business Analysis)  
-- Google Data Analytics Professional Certificate  
-- Salesforce (Sales Ops / Systems)  
-- IBM/SkillUp Systems Analyst  
-
-**Strengths:**  
-- Requirements elicitation & documentation  
-- Process & system modeling for efficiency  
-- Building **traceability systems** to prevent gaps  
-- Leading **UAT** for smooth deployments  
-- Presenting insights via dashboards & reports  
-
-🔗 Connect: [LinkedIn](https://www.linkedin.com/in/jamiechristian22) • [GitHub](https://github.com/JamieChristian22)  
+All artifacts are simulated for educational and professional portfolio demonstration. Names, system volumes, metrics, defects, incidents, integrations, and outcomes are fictionalized but internally consistent.
 
 ---
+
+**Built by Jamie Christian II — Systems Analysis • Requirements • Integration • Data • UAT • Implementation**
