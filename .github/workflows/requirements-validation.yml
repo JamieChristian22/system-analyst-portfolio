@@ -1,0 +1,35 @@
+name: Requirements traceability and API example validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  contract-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Python syntax
+        run: python -m compileall -q tools tests
+      - name: Validate source Markdown requirements and JSON examples
+        run: python -m tools.validate_requirements --output reports/requirements-validation.json
+      - name: Run negative-case regression tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Upload requirements validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: requirements-traceability-validation
+          if-no-files-found: warn
+          retention-days: 14
+          path: reports/requirements-validation.json
