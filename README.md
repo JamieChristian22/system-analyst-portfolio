@@ -1731,3 +1731,7 @@ No confidential employer, patient, healthcare organization, customer, or product
 
 [![GitHub](https://img.shields.io/badge/View-My%20GitHub-181717?style=for-the-badge&logo=github)](https://github.com/JamieChristian22)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jamiechristian2/)
+
+## License and third-party materials
+
+See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
