@@ -13,6 +13,23 @@
 
 ---
 
+## Automated requirements integrity checks
+
+[![Requirements validation](https://github.com/JamieChristian22/system-analyst-portfolio/actions/workflows/requirements-validation.yml/badge.svg)](https://github.com/JamieChristian22/system-analyst-portfolio/actions/workflows/requirements-validation.yml)
+
+Review the [requirements contract checker](./tools/validate_requirements.py) and its [negative-case regression tests](./tests/test_requirements.py). Run offline with:
+
+```bash
+python -m tools.validate_requirements
+python -m unittest discover -s tests -v
+```
+
+The checker verifies identifiers and required fields across **10 business requirements, 16 functional requirements, 12 nonfunctional requirements and 10 data-validation rules**. It also verifies that each written functional requirement has a unique UAT label and that the two API request/response examples are parseable JSON.
+
+**Evidence limit:** These checks verify Markdown documentation and references, not completed UAT execution, Excel traceability workbook contents or a running appointment service.
+
+---
+
 ## Start here: inspect the systems analysis deliverables
 
 The quickest review route is **requirements → architecture → data and interfaces → UAT → implementation readiness**. The case studies are simulations, not live healthcare deployments.
