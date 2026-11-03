@@ -13,6 +13,25 @@
 
 ---
 
+## Start here: inspect the systems analysis deliverables
+
+The quickest review route is **requirements → architecture → data and interfaces → UAT → implementation readiness**. The case studies are simulations, not live healthcare deployments.
+
+| Evidence | Open the project files |
+|---|---|
+| Business scenario | [Healthcare appointment system case study](./Healthcare_Appointment_System_Case_Study/README.md) |
+| Requirements | [Requirements documentation](./Requirements_Documentation/README.md) · [User stories and use cases](./User_Stories_Use_Cases/README.md) |
+| Process and architecture | [Process and system models](./Process_System_Models/README.md) · [Architecture and integrations](./System_Analysis_Integration/README.md) |
+| Data and security | [Security and nonfunctional requirements](./Data_Security_NFR/README.md) |
+| Traceability and testing | [Requirements traceability](./Traceability_Stakeholders/README.md) · [Testing and UAT](./Testing_UAT/README.md) |
+| Go-live and operations | [Implementation and support](./Implementation_Support/README.md) · [KPI reporting](./Reports_Dashboards/README.md) |
+
+![Sample simulated KPI dashboard](./Reports_Dashboards/KPI_Dashboard_Formatted.png)
+
+*Dashboard values and business outcomes are simulated for demonstration.*
+
+---
+
 ## 📌 Portfolio Overview
 
 This portfolio demonstrates end-to-end **Systems Analyst** capabilities through a realistic enterprise **Healthcare Appointment Management System** implementation.
